@@ -1,0 +1,9 @@
+[user]
+	name = Max Kyrychenko
+	email = iam.maxkyrychenko@gmail.com
+[core]
+	editor = code --wait
+[init]
+	defaultBranch = main
+[pull]
+	rebase = true
