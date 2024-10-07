@@ -8,12 +8,23 @@ return {
   {
     "rebelot/kanagawa.nvim",
     opts = {
+      colors = {
+        palette = {
+          sumiInk0 = "#0f0f14",
+          sumiInk1 = "#111116",
+          sumiInk2 = "#121218",
+          sumiInk3 = "#16161c",
+          sumiInk4 = "#1d1d26",
+          sumiInk5 = "#262631",
+          sumiInk6 = "#3b3b4c",
+        },
+      },
       --  Remove bold
       statementStyle = { bold = false },
       overrides = function(colors)
         return {
           Boolean = { bold = false },
-          ["@lsp.mod.readonly.typescript"] = { link = "@lsp" },
+          ["@lsp.mod.readonly"] = { link = "@lsp" },
           ["@lsp.typemod.function.readonly"] = { bold = false },
           ["@keyword.operator"] = { bold = false },
           ["@string.escape"] = { bold = false },
