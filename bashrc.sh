@@ -21,3 +21,8 @@ alias tmux-session="tmux attach-session -t main || tmux new-session -s main"
 if [ -z "$TMUX" ] && [ "$TERM" = "xterm-kitty" ]; then
 	tmux-session
 fi
+
+# Preserve command history
+HISTCONTROL=ignoredups:erasedups
+shopt -s histappend
+PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
