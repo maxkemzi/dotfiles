@@ -21,7 +21,7 @@ return {
       },
       --  Remove bold
       statementStyle = { bold = false },
-      overrides = function(colors)
+      overrides = function()
         return {
           Boolean = { bold = false },
           ["@lsp.mod.readonly"] = { link = "@lsp" },
