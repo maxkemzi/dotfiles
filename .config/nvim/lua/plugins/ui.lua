@@ -10,6 +10,15 @@ return {
         opts = { skip = true },
       })
 
+      table.insert(opts.routes, {
+        filter = {
+          event = "lsp",
+          kind = "progress",
+          find = "jdtls",
+        },
+        opts = { skip = true },
+      })
+
       opts.presets.lsp_doc_border = true
     end,
   },
