@@ -2,7 +2,7 @@
 	name = Max Kyrychenko
 	email = iam.maxkyrychenko@gmail.com
 [core]
-	editor = code --wait
+	editor = nvim
 [init]
 	defaultBranch = main
 [pull]
