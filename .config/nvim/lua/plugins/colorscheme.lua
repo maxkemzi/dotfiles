@@ -2,7 +2,22 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "kanagawa-wave",
+      colorscheme = "rose-pine",
+    },
+  },
+  {
+    "rose-pine/neovim",
+    name = "rose-pine",
+    opts = {
+      styles = {
+        bold = false,
+        italic = false,
+      },
+      palette = {
+        main = {
+          pine = "#4da1c2",
+        },
+      },
     },
   },
   {
