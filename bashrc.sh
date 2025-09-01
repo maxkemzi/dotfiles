@@ -30,4 +30,4 @@ shopt -s histappend
 PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
 
 # Make neovim a default sudo editor
-export SUDO_EDITOR=/opt/nvim-linux64/bin/nvim
+export SUDO_EDITOR=/opt/nvim-linux-x86_64/bin/nvim
