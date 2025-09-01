@@ -31,7 +31,6 @@ return {
           sumiInk3 = "#16161c",
           sumiInk4 = "#1d1d26",
           sumiInk5 = "#262631",
-          sumiInk6 = "#3b3b4c",
         },
       },
       --  Remove bold
