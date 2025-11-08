@@ -38,11 +38,7 @@ vim.opt.mouse = ""
 vim.opt.guicursor = "n-v-c-sm:block,i-ci-ve:ver25,r-cr-o:hor20,a:blinkon1200-blinkoff1200"
 vim.g.lazyvim_prettier_needs_config = true
 vim.g.snacks_animate = false
-vim.g.lazyvim_cmp = "nvim-cmp"
+-- vim.g.lazyvim_cmp = "nvim-cmp"
 
 -- Add asterisks in block comments
 vim.opt.formatoptions:append({ "r" })
-
-if vim.fn.has("nvim-0.8") == 1 then
-  vim.opt.cmdheight = 0
-end

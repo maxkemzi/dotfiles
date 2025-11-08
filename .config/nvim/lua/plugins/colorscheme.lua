@@ -2,7 +2,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "rose-pine",
+      colorscheme = "kanagawa",
     },
   },
   {
@@ -31,6 +31,12 @@ return {
           sumiInk3 = "#16161c",
           sumiInk4 = "#1d1d26",
           sumiInk5 = "#262631",
+          -- dragonBlack0 = "#090808",
+          -- dragonBlack1 = "#0d0d0a",
+          -- dragonBlack2 = "#141411",
+          -- dragonBlack3 = "#110f0f",
+          -- dragonBlack4 = "#1c1b1b",
+          -- dragonBlack5 = "#282726",
         },
       },
       --  Remove bold
