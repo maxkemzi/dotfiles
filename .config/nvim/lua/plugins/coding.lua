@@ -1,9 +1,16 @@
 return {
-  -- {
-  --   "nvim-cmp",
-  --   dependencies = { "hrsh7th/cmp-emoji" },
-  --   opts = function(_, opts)
-  --     table.insert(opts.sources, { name = "emoji" })
-  --   end,
-  -- },
+  {
+    "saghen/blink.cmp",
+    opts = {
+      keymap = {
+        preset = "super-tab",
+      },
+      completion = {
+        trigger = {
+          show_in_snippet = false,
+          -- show_on_accept_on_trigger_character = false,
+        },
+      },
+    },
+  },
 }
