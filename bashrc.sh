@@ -5,7 +5,7 @@
 # fi
 
 # Prompt styling
-KANAGAWA_WAVE_STYLE="\[\033[1m\033[38;2;228;104;118m\]"
+KANAGAWA_WAVE_STYLE="\[\033[1m\033[38;2;255;93;98m\]"
 KANAGAWA_DRAGON_STYLE="\[\033[1m\033[38;2;196;116;110m\]"
 TOKYONIGHT_NIGHT_STYLE="\[\033[1m\033[38;2;247;118;142m\]"
 NIGHTFOX_STYLE="\[\033[1m\033[38;2;201;79;109m\]"
@@ -16,7 +16,7 @@ NORDIC_STYLE="\[\033[1m\033[38;2;208;135;112m\]"
 KANAGAWA_PAPER_STYLE="\[\033[1m\033[38;2;196;116;110m\]"
 RESET="\[\033[0m\]"
 
-PS1="${KANAGAWA_PAPER_STYLE}${debian_chroot:+($debian_chroot)}\u@\h${RESET}:\w\$ "
+PS1="${KANAGAWA_WAVE_STYLE}${debian_chroot:+($debian_chroot)}\u@\h${RESET}:\w\$ "
 
 # Alias for dotfiles git repo
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
