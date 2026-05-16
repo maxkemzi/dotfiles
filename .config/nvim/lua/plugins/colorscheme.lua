@@ -60,6 +60,8 @@ return {
       },
       --  Remove bold
       statementStyle = { bold = false },
+      commentStyle = { italic = false },
+      keywordStyle = { italic = false },
       overrides = function()
         return {
           Boolean = { bold = false },
@@ -67,6 +69,7 @@ return {
           ["@lsp.typemod.function.readonly"] = { bold = false },
           ["@keyword.operator"] = { bold = false },
           ["@string.escape"] = { bold = false },
+          ["@variable.builtin"] = { italic = false },
         }
       end,
     },
