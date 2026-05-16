@@ -24,7 +24,7 @@ alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 # Tmux
 alias tmux-session="tmux attach-session -t main || tmux new-session -s main"
 # Start tmux session on Kitty launch
-if [ -z "$TMUX" ] && [ "$TERM" = "xterm-kitty" ]; then
+if [ -z "$TMUX" ]; then
 	tmux-session
 fi
 
